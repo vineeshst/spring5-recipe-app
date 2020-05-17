@@ -15,7 +15,7 @@
     <description>Recipe Application</description>
 
     <properties>
-        <java.version>14</java.version>
+        <java.version>8</java.version>
     </properties>
 
     <dependencies>
@@ -46,6 +46,11 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>3.4.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
